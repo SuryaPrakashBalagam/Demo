@@ -14,10 +14,10 @@ int main()
 {
     std::cout<<"Hello World"<<std::endl;
     cout<<"Globe"<<endl;
-    add(10,20);
-    sub(30,5);
-    cout<<add<<endl;
-    cout<<"Removed everything and add New Features"<<endl;
+    int addres = add(10,20);
+    int subres = sub(30,5);
+    cout<<addres<<endl;
+    cout<<subres<<endl;
 
     return 0;
 }
