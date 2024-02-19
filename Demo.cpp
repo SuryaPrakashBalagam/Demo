@@ -12,12 +12,7 @@ int sub(int x, int y)
 
 int main()
 {
-    std::cout<<"Hello World"<<std::endl;
-    cout<<"Globe"<<endl;
-    int addres = add(10,20);
-    int subres = sub(30,5);
-    cout<<addres<<endl;
-    cout<<subres<<endl;
+    cout<<"Removed Everything from the code"<<endl;
 
     return 0;
 }
