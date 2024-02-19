@@ -1,15 +1,23 @@
 #include<iostream>
 using namespace std;
 
+int add(int a, int b)
+{
+    return a+b;
+}
+int sub(int x, int y)
+{
+    return x-y;
+}
+
 int main()
 {
-    int a = 20;
-    int b = 30;
+    std::cout<<"Hello World"<<std::endl;
+    cout<<"Globe"<<endl;
+    add(10,20);
+    sub(30,5);
+    cout<<add<<endl;
+    cout<<"Removed everything and add New Features"<<endl;
 
-    cout<<"Addition"<<a+b<<endl;
-    cout<<"Subtraction"<<a-b<<endl;
-    cout<<"Multiplication"<<a*b<<endl;
-    cout<<"Division"<<a/b<<endl;
-    cout<<"Modulus"<<a%b<<endl;
-
+    return 0;
 }
