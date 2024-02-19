@@ -13,6 +13,7 @@ int sub(int x, int y)
 int main()
 {
     cout<<"Removed Everything from the code"<<endl;
+    cout<<"Stash"<<endl;
 
     return 0;
 }
